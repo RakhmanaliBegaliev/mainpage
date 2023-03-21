@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Shop</title>
+    <style>
+        .navbar {
+            width: 100%;
+            height: 70px;
+            box-shadow: 0 4px rgba(0, 0, 0, .1);
+            position: absolute;
+            background: #1A1A25;
+
+        }
+
+        .navbar .container {
+            height: inherit;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-menu {
+            font-family: 'Inter', sans-serif;
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 0;
+
+        }
+
+        .navbar-menu li {
+            display: inline-block;
+        }
+
+        .navbar-menu li a {
+            display: inline-block;
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 16px;
+
+        }
+
+        .navbar-wrap {
+            display: flex;
+            flex-flow: row nowrap;
+            overflow: hidden;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .phone_number {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-decoration: none;
+
+            color: #FFFFFF;
+        }
+
+        .navbar-brand {
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 700;
+            font-size: 28px;
+            text-decoration: none;
+            color: white;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .footer-content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            height: 170px;
+            box-shadow: 0 4px rgba(0, 0, 0, .1);
+            position: absolute;
+            background: #1A1A25;
+        }
+        .footer-content h3{
+            text-transform: capitalize;
+            line-height: 3rem;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+        }
+        .footer-content p{
+            max-width: 500px;
+            margin: 10px auto;
+            line-height: 28px;
+            font-size: 14px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            color: white;
+        }
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar-wrap">
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">Gadgetarium</a>
+            <ul class="navbar-menu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О магазине</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">FAG</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <a href="#" class="phone_number">+996 (400) 00-00-00</a>
+            <img src="" alt="">
+        </div>
+    </nav>
+</div>
+<footer>
+    <div class="footer-content">
+        <h3>Gadgetarium</h3>
+        <p>&copy 2022 Gadgetarium. Интернет магазин <br> Все права защищены</p>
+    </div>
+</footer>
+</body>
+</html>
